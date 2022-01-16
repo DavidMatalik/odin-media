@@ -8,56 +8,79 @@
   </head>
   <body>
     <header>
-      <nav></nav>
-      <img src="" alt="This is the youtube logo" />
+      <nav><img src="./images/menu.svg" alt="This is the youtube logo" /></nav>
+      <img
+        class="youtube-logo"
+        src="./images/youtube.svg"
+        alt="This is the youtube logo"
+      />
       <form>
-        <input type="search" placeholder="Search" />
-        <button type="submit">Search</button>
+        <input class="search-box" type="search" placeholder="Search" />
+        <div class="search-icon-wrapper">
+          <input type="image" src="./images/search.svg" />
+        </div>
       </form>
+      <div class="mic-wrapper">
+        <img src="./images/mic.svg" alt="Search with you voice" />
+      </div>
+      <img class="video-icon" src="./images/video.svg" alt="Add a video" />
+      <img class="apps-icon" src="./images/apps.svg" alt="Youtube apps" />
+      <img
+        class="notifications-icon"
+        src="./images/notifications.svg"
+        alt="Notifications"
+      />
+      <img
+        class="profile-icon"
+        src="./images/profile.jpg"
+        alt="Profile information"
+      />
     </header>
     <main>
-      <section class="video-content">
-        <figure>
-          <video src="" constrols poster="">
-            Sorry, your browser doesn't support embedded videos
-          </video>
-          <figcaption>
-            <h1>This is the Video title</h1>
-            <p>xx views and date</p>
-          </figcaption>
-        </figure>
-        <p>Video statistics and additional functions</p>
-        <p>Video description</p>
-      </section>
-      <section class="video-comments">
-        <h2>18 Comments</h2>
-        <div class="write-comment">
-          <form>
-            <input type="text" placeholder="Add a public comment" />
-            <button>Comment</button>
-            <button>Cancel</button>
-          </form>
-          <img src="" alt="Image of signed in user" />
-        </div>
-        <div class="video-comment">
-          <h3>Username</h3>
-          <p>Time ago</p>
-          <p>This is the comment: Here is the comment text</p>
-          <img src="" alt="Image of user who wrote comment" />
-        </div>
-        <div class="video-comment">
-          <h3>Username</h3>
-          <p>Time ago</p>
-          <p>This is the comment: Here is the comment text</p>
-          <img src="" alt="Image of user who wrote comment" />
-        </div>
-        <div class="video-comment">
-          <h3>Username</h3>
-          <p>Time ago</p>
-          <p>This is the comment: Here is the comment text</p>
-          <img src="" alt="Image of user who wrote comment" />
-        </div>
-      </section>
+      <div>
+        <section class="video-content">
+          <figure>
+            <video src="" constrols poster="">
+              Sorry, your browser doesn't support embedded videos
+            </video>
+            <figcaption>
+              <h1>This is the Video title</h1>
+              <p>xx views and date</p>
+            </figcaption>
+          </figure>
+          <p>Video statistics and additional functions</p>
+          <p>Video description</p>
+        </section>
+        <section class="video-comments">
+          <h2>18 Comments</h2>
+          <div class="write-comment">
+            <form>
+              <input type="text" placeholder="Add a public comment" />
+              <button>Comment</button>
+              <button>Cancel</button>
+            </form>
+            <img src="" alt="Image of signed in user" />
+          </div>
+          <div class="video-comment">
+            <h3>Username</h3>
+            <p>Time ago</p>
+            <p>This is the comment: Here is the comment text</p>
+            <img src="" alt="Image of user who wrote comment" />
+          </div>
+          <div class="video-comment">
+            <h3>Username</h3>
+            <p>Time ago</p>
+            <p>This is the comment: Here is the comment text</p>
+            <img src="" alt="Image of user who wrote comment" />
+          </div>
+          <div class="video-comment">
+            <h3>Username</h3>
+            <p>Time ago</p>
+            <p>This is the comment: Here is the comment text</p>
+            <img src="" alt="Image of user who wrote comment" />
+          </div>
+        </section>
+      </div>
       <aside>
         <figure>
           <img src="" />
