@@ -82,11 +82,23 @@ main {
   padding: 30px;
 
   div {
-    width: 100%;
     margin-right: 30px;
+    flex: 1;
 
     .video-content {
       background: yellow;
+
+      .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 ratio */
+
+        iframe {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+        }
+      }
     }
 
     .video-comments {
@@ -95,7 +107,32 @@ main {
   }
 
   aside {
-    width: 400px;
-    background: lightblue;
+    width: 450px;
+
+    figure {
+      display: flex;
+      margin-bottom: 10px;
+
+      img {
+        width: 180px;
+      }
+
+      figcaption {
+        padding: 0 10px 10px 10px;
+
+        h3 {
+          font-size: 1.2rem;
+          font-weight: 600;
+          margin-bottom: 6px;
+          line-height: 1.5rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+          line-height: 1.1rem;
+          color: #7c6965;
+        }
+      }
+    }
   }
 }
